@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const prompts = [
         "Someone has been laughed at. How can you support them?",
-        "A friend feels like a failure. What would you say to them?",
-        "A friend achieved something great. How would you encourage them?",
+        "A friend has failed at something important. What do you say to them?",
+        "A friend is trying to achieve something difficult. How do you encourage them?",
         "Someone has been rejected. How can you lift their spirits?",
         "A child feels happy for no particular reason. How do you share their happiness?",
         "An animal comes to you for company. What do you do?"
