@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empathy Training Mill</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        #prompt-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #input-container {
+            margin: 20px;
+        }
+        #visual-container {
+            position: relative;
+            margin: 20px;
+            width: 80%;
+            height: 500px;
+            background: #fff;
+            border: 2px solid #ccc;
+            overflow: hidden; 
+        }
+        .visual-item {
+            position: absolute;
+            width: 200px; 
+            height: 200px; 
+            opacity: 0; 
+            transition: opacity 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="prompt-container">
+        <h1 id="prompt">Prompt will appear here</h1>
+    </div>
+    <div id="input-container">
+        <input type="text" id="user-input" placeholder="Type your response..." />
+        <button id="submit-button">Submit</button>
+    </div>
+    <div id="visual-container"></div>
+
+    <script src="visual.js"></script>
+</body>
+</html>
