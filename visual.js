@@ -9,19 +9,19 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     const images = [
-        "images/branch1.png", 
-        "images/branch2.png",
-        "images/branch3.png",
-        "images/branch4.png",
-        "images/branch5.png",
-        "images/branch6.png",
-        "images/branch7.png",
-        "images/branch8.png",
-        "images/branch9.png",
-        "images/branch10.png",
-        "images/branch11.png",
-        "images/branch12.png",
-        "images/branch13.png"
+        "branch1.png", 
+        "branch2.png",
+        "branch3.png",
+        "branch4.png",
+        "branch5.png",
+        "branch6.png",
+        "branch7.png",
+        "branch8.png",
+        "branch9.png",
+        "branch10.png",
+        "branch11.png",
+        "branch12.png",
+        "branch13.png"
     ];
 
     const promptContainer = document.getElementById("prompt");
